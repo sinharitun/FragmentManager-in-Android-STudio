@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Version">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#BAB2B2"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Versions"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android 1.0 (2008): The initial release with basic features like the Android Market and support for Google Maps"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android 1.5 (Cupcake, 2009): Introduced an on-screen keyboard, video recording, and third-party app widgets.\nAndroid 1.6 (Donut, 2009): Added support for different screen sizes, improved camera features, and introduced the Android Market search functionality."
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android 2.0/2.1 (Eclair, 2009-2010): Brought a new user interface, improved Google Maps, and support for multiple accounts.\nAndroid 2.2 (Froyo, 2010): Enhanced performance with the introduction of the JIT compiler, support for Adobe Flash, and Wi-Fi hotspot functionality."
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android 2.3 (Gingerbread, 2010): Introduced a refreshed user interface, improved gaming, and better support for front-facing cameras.\nAndroid 3.0 (Honeycomb, 2011): Designed specifically for tablets with a new holographic user interface and improved multitasking.\nAndroid 4.0 (Ice Cream Sandwich, 2011): Unified the phone and tablet UI, introduced a new design language, and added features like facial recognition."
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android 4.1/4.2/4.3 (Jelly Bean, 2012-2013): Focused on performance improvements with Project Butter, introduced Google Now, and enhanced notifications.\nAndroid 4.4 (KitKat, 2013): Optimized performance for lower-end devices, introduced the Ok Google voice command, and revamped the user interface.\nAndroid 5.0/5.1 (Lollipop, 2014-2015): Brought Material Design for a consistent look across apps and devices, introduced improved notifications and battery life features.\nAndroid 6.0 (Marshmallow, 2015): Added features like Doze mode for battery savings, improved permissions management, and Google Now on Tap."
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android 7.0/7.1 (Nougat, 2016-2017): Introduced split-screen multitasking, improved notifications, and enhanced security features.\nAndroid 8.0/8.1 (Oreo, 2017): Added features like picture-in-picture mode, notification dots, and improved battery optimization.\nAndroid 9.0 (Pie, 2018): Introduced gesture navigation, adaptive battery and brightness, and improved security features.\nAndroid 10 (2019): Dropped dessert names for versioning, introduced a system-wide dark mode, and improved privacy controls.
+
+"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android 11 (2020): Focused on user control and privacy with features like one-time permissions, improved notifications, and better support for 5G.\nAndroid 12 (2021): Brought a major visual overhaul with Material You, enhanced privacy features, and improved performance.\nAndroid 13 (2022): Continued with user customization, expanded support for foldable devices, and refined security and privacy features.\nAndroid 14 (2023): Introduced enhancements in device compatibility, improved performance, and further refined user interface and security features."
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</FrameLayout>

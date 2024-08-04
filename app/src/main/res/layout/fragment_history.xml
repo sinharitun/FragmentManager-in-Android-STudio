@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BD5858"
+    tools:context=".History">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BAB2B2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="15dp"
+            android:text="History"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android began in 2003 as a startup founded by Andy Rubin and was acquired by Google in 2005. The first Android device, the HTC Dream, launched in 2008, marking the start of its rise in the mobile market. Over the years, Android evolved through major updates, including Android 1.5 (Cupcake), which introduced app widgets, and Android 4.0 (Ice Cream Sandwich), which unified smartphone and tablet interfaces. Subsequent versions like Android 5.0 (Lollipop) and Android 10 brought significant changes, including Material Design and system-wide dark mode. Today, Android continues to lead the global mobile OS market, adapting to new technologies and user needs."
+            android:padding="10dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</FrameLayout>

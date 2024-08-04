@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BAB2B2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="About"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="10dp"
+            android:text="Android is a versatile and widely-used mobile operating system developed by Google, based on the Linux kernel. It provides a robust framework for building applications through its rich set of APIs, including components like Activities, Fragments, and Services. Developers use tools such as Android Studio and the Android SDK to create apps that run on various devices, including smartphones and tablets. Android’s modular architecture, extensive libraries, and support for multiple programming languages like Java and Kotlin facilitate flexible, dynamic app development. The operating system’s open nature and broad ecosystem support innovation and wide distribution through platforms like the Google Play Store."
+            android:textAlignment="inherit"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</FrameLayout>
